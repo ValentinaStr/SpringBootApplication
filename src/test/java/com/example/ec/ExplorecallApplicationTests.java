@@ -9,5 +9,4 @@ class ExplorecallApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
