@@ -1,6 +1,8 @@
 package com.example.ec.Domain;
-
+import java.util.Objects;
 import jakarta.persistence.*;
+import com.example.ec.Domain.Region;
+
 
 @Entity
 public class Tour {
@@ -28,7 +30,6 @@ public class Tour {
 
     @Column
     private String keywords;
-
 
     @ManyToOne
     private TourPackage tourPackage;
