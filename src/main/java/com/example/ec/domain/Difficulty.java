@@ -1,4 +1,4 @@
-package com.example.ec.Domain;
+package com.example.ec.domain;
 
 public enum Difficulty {
     Easy, Medium, Difficult, Varies;

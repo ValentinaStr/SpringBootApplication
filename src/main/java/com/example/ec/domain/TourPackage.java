@@ -1,4 +1,4 @@
-package com.example.ec.Domain;
+package com.example.ec.domain;
 import java.util.Objects;
 import jakarta.persistence.*;
 
