@@ -1,7 +1,7 @@
 package com.example.ec.domain;
+
 import java.util.Objects;
 import jakarta.persistence.*;
-
 
 @Entity
 public class Tour {
