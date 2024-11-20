@@ -1,10 +1,15 @@
 package com.example.ec.service;
 
-import com.example.ec.domain.*;
+
+
+import com.example.ec.domain.Difficulty;
+import com.example.ec.domain.Region;
+import com.example.ec.domain.Tour;
+import com.example.ec.domain.TourPackage;
 import com.example.ec.repo.TourPackageRepository;
 import com.example.ec.repo.TourRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.*;
 
 @Service
 public class TourService {
@@ -27,8 +32,7 @@ public class TourService {
                 bullets, keywords, tourPackage, difficulty, region));
     }
 
-      public long total() {
+    public long total() {
         return tourRepository.count();
     }
-
 }
